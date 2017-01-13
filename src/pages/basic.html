@@ -1,0 +1,104 @@
+---
+subject: My Basic Email Template Subject
+---
+
+<wrapper class="header">
+<wrapper class="">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <center>
+          <img src="assets/img/logo_org_7.png" class="logo_org_7">
+        </center>
+      </columns>
+    </row>
+  </container>
+</wrapper>
+
+<wrapper >
+<container>
+  <row class="white">
+    <columns small="8" class="small-offset-2">
+      <center>
+        <spacer size="20"></spacer>
+        <h1 class="text-center">Confirmer votre compte Alkemics</h1>
+      </center>
+      <table class="row">
+        <tbody>
+          <tr>
+            <column>
+              <p>{{ content }}</p>
+            </column>
+          </tr>
+        </tbody>
+      </table>
+      <table class="row">
+        <tbody>
+          <tr>
+            <column>
+              <button class="expanded radius" href="http://zurb.com">Valider mon compte</button>
+            </column>
+          </tr>
+        </tbody>
+      </table>
+    </columns>
+  </row>
+</container>
+<container>
+  <spacer size="10"></spacer>
+  <row class="white">
+    <columns small="6">
+      <center class="contact">
+        <spacer size="20"></spacer>
+        <h4 class="text-center contact">Besoin d’aide ? Contactez Andréa ou Etienne</h4>
+        <p class="text-center contact-email">support-productstream@alkemics.com</p>
+        <p class="text-center">Vous avez reçu cet e-mail, car vous êtes inscrit sur la plateforme collaborative 
+        Alkemics Product stream. Si vous ne souhaitez plus recevoir d'e-mails, 
+        <a href="{% unsubscribe_url %}" class="untracked">désabonnez-vous</a>.</p>
+      </center>
+      <table class="row">
+        <tbody>
+          <tr>
+            <column>
+              <p class="content">{{ content }}</p>
+            </column>
+          </tr>
+        </tbody>
+      </table>
+    </columns>
+  </row>
+</container>
+  <wrapper class="">
+    <spacer size="16"></spacer>
+    <container class="transparent">
+      <spacer size="16"></spacer>
+      <row small>
+        <columns small="12">
+          <h5 class="text-center">Vous souhaitez nous suivre ?</h5>
+        </columns>
+      </row>
+
+      <row>
+          <columns small="12">
+          <center>
+            <img src="assets/img/link__fb.png" class="social__links">
+            <img src="assets/img/link__twitter.png" class="social__links">
+            <img src="assets/img/link__linkedin.png" class="social__links">
+          </center>
+          </columns>
+      </row>
+      <spacer size="20"></spacer>
+      <row>
+          <columns small="12">
+          <center>
+            <p class="footnote text-center">© 2016 Alkemics</p>
+            <p class="footnote text-center">20 rue saint-georges,</p>
+            <p class="footnote text-center">75009 Paris</p>
+          </center>
+          </columns>
+      </row>
+    </container>
+  </wrapper>
+</container>
+</wrapper>
+</wrapper>

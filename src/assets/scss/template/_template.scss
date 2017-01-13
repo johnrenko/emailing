@@ -1,0 +1,105 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background-color: $light-gray !important;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h4.contact {
+  margin-bottom: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+.container.header {
+
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  padding-top: 15px;
+  font-weight: 300;
+}
+
+.header .wrapper-inner {
+  padding: 10px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+.contact p {
+  font-size: $font-size-small;
+}
+
+p.contact-email {
+  padding-top: 0;
+}
+
+p.footnote {
+  color: #B8B8B8;
+  padding: 0;
+  margin: 0;
+}
+
+img.logo_org_7 {
+  height: 35px;
+}
+
+img.social__links {
+  height: 32px;
+}
+
+table.button.expand, table.button.expanded {
+  width: 80% !important;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
