@@ -4,16 +4,8 @@
 @import 'template/template';
 
 .header {
-  background-image: 
-    linear-gradient(
-      to bottom,
-      #3FA2B2,
-      #3FA2B2 160px,
-      #166A83 160px,
-      #166A83 320px,    
-      $light-gray 320px,
-      $light-gray
-    )
+  background: $light-gray;
+  background-image: url(https://s23.postimg.org/tyhz00tzv/background_Pixel.png);
 }
 
 .container.transparent {
