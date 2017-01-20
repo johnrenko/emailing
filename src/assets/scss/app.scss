@@ -30,3 +30,53 @@
 img.social-links {
   height: 32px;
 }
+
+.content__comment__block {
+  background: $light-gray;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.content__comment__text {
+  padding: 20px;
+}
+
+.content__product__block {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.content__product__image {
+  max-width: 64px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content__product__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content__product__text__name {
+  padding: 0;
+  margin: 0;
+}
+
+p.content__product__text__gtin {
+  padding: 0;
+  margin: 0;
+}
+
+.content__product__text__gtin span{
+  color: #3FA2B2;
+}
+
+
+
+
+
+
+
+
