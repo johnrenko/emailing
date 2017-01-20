@@ -4,20 +4,19 @@
 @import 'template/template';
 
 .header {
-  background-image: 
-    linear-gradient(
-      to bottom,
-      #3FA2B2,
-      #3FA2B2 160px,
-      #166A83 160px,
-      #166A83 320px,    
-      $light-gray 320px,
-      $light-gray
-    )
+  background: #ECECEC;
+  background-image: url(https://s23.postimg.org/tyhz00tzv/background_Pixel.png);
+  background-repeat: repeat-x;
 }
 
 .container.transparent {
 	background: transparent;
+}
+
+.content__body {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .bold {
@@ -26,4 +25,8 @@
 
 .white {
 	background: #fff;
+}
+
+img.social-links {
+  height: 32px;
 }

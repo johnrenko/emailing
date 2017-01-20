@@ -27,7 +27,7 @@ subject: My Basic Email Template Subject
         <tbody>
           <tr>
             <column>
-              <p>{{ content }}</p>
+              <p class="content__body">{{ content }}</p>
             </column>
           </tr>
         </tbody>
@@ -52,7 +52,7 @@ subject: My Basic Email Template Subject
         <spacer size="20"></spacer>
         <h4 class="text-center contact">Besoin d’aide ? Contactez Andréa ou Etienne</h4>
         <p class="text-center contact-email">support-productstream@alkemics.com</p>
-        <p class="text-center">Vous avez reçu cet e-mail, car vous êtes inscrit sur la plateforme collaborative 
+        <p class="content__body">Vous avez reçu cet e-mail, car vous êtes inscrit sur la plateforme collaborative 
         Alkemics Product stream. Si vous ne souhaitez plus recevoir d'e-mails, 
         <a href="{% unsubscribe_url %}" class="untracked">désabonnez-vous</a>.</p>
       </center>
@@ -81,9 +81,15 @@ subject: My Basic Email Template Subject
       <row>
           <columns small="12">
           <center>
-            <img src="assets/img/link__fb.png" class="social__links">
-            <img src="assets/img/link__twitter.png" class="social__links">
-            <img src="assets/img/link__linkedin.png" class="social__links">
+            <a href="_blank">
+              <img src="https://s23.postimg.org/hnvks3ilz/link_fb.png" align="center" class="float-center social-links">
+            </a>
+            <a href="https://twitter.com/alkemics">
+              <img src="https://s23.postimg.org/601ixjth3/link_twitter.png" align="center" class="float-center social-links">
+            </a>
+            <a href="https://www.linkedin.com/company/alkemics">
+              <img src="https://s23.postimg.org/q4v330nav/link_linkedin.png" align="center" class="float-center social-links">
+            </a>
           </center>
           </columns>
       </row>
